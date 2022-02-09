@@ -1,6 +1,7 @@
 # Description of programs in this repository
 
 ----------------------------------------------
+
 Three files: Segmented_IK.m, VSAFO_ID.m, and VSAFO_Pipeline.m are scripts with OpenSim and require additional setup:
 https://simtk-confluence.stanford.edu:8443/display/OpenSim/Scripting+with+Matlab
 
@@ -16,6 +17,7 @@ VSAFO_Pipeline.m: combined batch processing of RRA and CMC
 Input: .osim model file, .xml setup files for both RRA and CMC, .mot files with segmented IK data,
 .xml files that reference the .mot files with grf data, pass time data
 Output: rra outputs, rra adjusted models, cmc outputs
+
 ----------------------------------------------
 
 VSAFO_Rfinder.m: calculates the torque applied by the AFO based on the motion
