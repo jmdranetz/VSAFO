@@ -79,3 +79,7 @@ Outputs: plots of interpolated muscle forces (means and std's), plots of residua
 CMCEMG_Compare.m: generates comparison plots of scaled EMG and CMC data
 Input: .mat files with EMG and CMC data
 Output: plots normalized (scaled) EMG and CMC data, shown as line and bar plots (segmented by gait events)
+
+net_ankle_plotter.m: plots the sum of the ID ankle moment and the VSAFO torque
+Input: .mat files with intepolated ID data, .mat files with interpolated AFO torque data
+Output: plots the show contribution of VSAFO to ankle torque to show overall ankle torque
